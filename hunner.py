@@ -264,7 +264,7 @@ def mail():
 	if password == '':
 		print(F+'Password list: password/password_list.txt'+E)
 		password = 'password/password_list.txt'
-	os.system('python3 mail.py '+mail+' '+password)
+	os.system('python3  mail (1).py '+mail+' '+password)
 
 def Main_Menu():
 	print(head)
